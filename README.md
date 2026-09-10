@@ -8,6 +8,14 @@ This repository is a public technical overview. It documents the system's bounda
 
 [Version française](README.fr.md) · [Architecture](docs/architecture.md) · [Method](docs/method.md) · [Security](SECURITY.md)
 
+## Explore OuiDire
+
+- **Product website:** [ouidire.app](https://ouidire.app/)
+- **English workspace:** [beta.ouidire.app](https://beta.ouidire.app/)
+- **Espace de travail français:** [beta-fr.ouidire.app](https://beta-fr.ouidire.app/)
+
+The workspaces are active beta environments. Do not upload confidential or sensitive material without first reviewing the product's current privacy terms and intended-use guidance.
+
 ## Why OuiDire exists
 
 Reviewing a large record is not just a summarization problem. Reviewers must preserve documentary structure, distinguish sources from interpretations, find recurring patterns across documents, and be able to return from every conclusion to supporting evidence.

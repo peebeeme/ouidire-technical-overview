@@ -8,6 +8,14 @@ Ce dépôt est une vitrine technique publique. Il décrit les limites et princip
 
 [English](README.md) · [Architecture](docs/architecture.md) · [Méthode](docs/method.md) · [Sécurité](SECURITY.md)
 
+## Découvrir OuiDire
+
+- **Site du produit :** [ouidire.app](https://ouidire.app/)
+- **Espace de travail français :** [beta-fr.ouidire.app](https://beta-fr.ouidire.app/)
+- **English workspace:** [beta.ouidire.app](https://beta.ouidire.app/)
+
+Les espaces de travail sont des environnements bêta actifs. Avant d'y déposer du contenu confidentiel ou sensible, consultez les conditions de confidentialité et les consignes d'utilisation actuellement publiées par le produit.
+
 ## Pourquoi OuiDire existe
 
 Examiner un dossier volumineux n'est pas qu'un problème de résumé. Il faut préserver la structure documentaire, distinguer les sources des interprétations, repérer les mécanismes récurrents et pouvoir revenir de chaque conclusion aux éléments qui l'appuient.
