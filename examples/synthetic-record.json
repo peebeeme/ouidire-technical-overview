@@ -1,0 +1,48 @@
+{
+  "notice": "Entirely synthetic demonstration data. No person or real proceeding is represented.",
+  "record_id": "SYNTHETIC-DEMO-001",
+  "documents": [
+    {
+      "document_id": "DOC-A",
+      "title": "Fictional review note",
+      "pages": 2,
+      "cards": [
+        {
+          "card_id": "CARD-A-01",
+          "source_reference": "DOC-A, p. 1, para. 2",
+          "source_excerpt": "The committee repeated the earlier classification but did not record a new assessment.",
+          "machine_suggestion": {
+            "label": "prior statement reused without documented reassessment",
+            "confidence": "medium",
+            "rationale": "The sentence distinguishes an earlier classification from the absence of a newly recorded assessment."
+          },
+          "human_review": {
+            "status": "needs-context",
+            "note": "Check whether a reassessment appears in the following document."
+          }
+        }
+      ]
+    },
+    {
+      "document_id": "DOC-B",
+      "title": "Fictional follow-up note",
+      "pages": 1,
+      "cards": [
+        {
+          "card_id": "CARD-B-01",
+          "source_reference": "DOC-B, p. 1, para. 1",
+          "source_excerpt": "A new assessment was completed the following week and reached a different conclusion.",
+          "machine_suggestion": {
+            "label": "potential cross-document contradiction",
+            "confidence": "medium",
+            "rationale": "The later assessment may qualify the statement recorded in DOC-A."
+          },
+          "human_review": {
+            "status": "accepted-with-qualification",
+            "note": "Compare dates and scope before treating the conclusions as contradictory."
+          }
+        }
+      ]
+    }
+  ]
+}

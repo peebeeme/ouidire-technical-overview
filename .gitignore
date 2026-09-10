@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+node_modules/
+.next/
+dist/
+coverage/
+.idea/
+.vscode/
