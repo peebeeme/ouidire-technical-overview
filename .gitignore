@@ -12,5 +12,7 @@ node_modules/
 .next/
 dist/
 coverage/
+__pycache__/
+*.py[cod]
 .idea/
 .vscode/

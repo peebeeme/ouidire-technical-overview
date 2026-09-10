@@ -8,6 +8,8 @@ This repository is a public technical overview. It documents the system's bounda
 
 [Version française](README.fr.md) · [Architecture](docs/architecture.md) · [Method](docs/method.md) · [Security](SECURITY.md)
 
+[![Traceability demo](https://github.com/peebeeme/ouidire-technical-overview/actions/workflows/traceability-demo.yml/badge.svg)](https://github.com/peebeeme/ouidire-technical-overview/actions/workflows/traceability-demo.yml)
+
 ## Explore OuiDire
 
 - **Product website:** [ouidire.app](https://ouidire.app/)
@@ -77,6 +79,8 @@ See [Architecture](docs/architecture.md) for the trust boundaries and [Method](d
 ## Demonstration data
 
 The example in [`examples/synthetic-record.json`](examples/synthetic-record.json) is deliberately fictional and contains no personal information. It illustrates the separation between source excerpts, machine suggestions, and human decisions.
+
+The executable [`traceability-demo`](examples/traceability-demo/) validates the chain from a finding to its supporting cards, documents, and page references. It uses only the Python standard library and includes automated tests.
 
 ## Evaluation
 

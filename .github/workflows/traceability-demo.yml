@@ -1,0 +1,26 @@
+name: Traceability demo
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run unit tests
+        run: python -m unittest discover -s examples/traceability-demo/tests -v
+      - name: Validate the synthetic record
+        run: >-
+          python examples/traceability-demo/validate_traceability.py
+          examples/synthetic-record.json
+          --report examples/traceability-demo/report.md

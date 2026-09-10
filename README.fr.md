@@ -8,6 +8,8 @@ Ce dépôt est une vitrine technique publique. Il décrit les limites et princip
 
 [English](README.md) · [Architecture](docs/architecture.md) · [Méthode](docs/method.md) · [Sécurité](SECURITY.md)
 
+[![Démo de traçabilité](https://github.com/peebeeme/ouidire-technical-overview/actions/workflows/traceability-demo.yml/badge.svg)](https://github.com/peebeeme/ouidire-technical-overview/actions/workflows/traceability-demo.yml)
+
 ## Découvrir OuiDire
 
 - **Site du produit :** [ouidire.app](https://ouidire.app/)
@@ -47,6 +49,10 @@ OuiDire sépare six responsabilités : réception, reconstruction, inspection, a
 | 4 | Thèse | Construire une synthèse explicative révisable |
 
 Les passages d'IA ont des rôles distincts : orientation rapide, analyse structurée plus profonde et relecture critique ciblée. Ils ne sont pas fondus dans une réponse opaque unique.
+
+## Démonstration exécutable
+
+La démo [`traceability-demo`](examples/traceability-demo/) vérifie concrètement la chaîne entre une conclusion, ses cartes d'appui, les documents et leurs références de page. Elle utilise uniquement la bibliothèque standard Python et comprend des tests automatisés.
 
 ## Principes de conception
 

@@ -1,6 +1,13 @@
 {
   "notice": "Entirely synthetic demonstration data. No person or real proceeding is represented.",
   "record_id": "SYNTHETIC-DEMO-001",
+  "findings": [
+    {
+      "finding_id": "FINDING-001",
+      "summary": "A later assessment may qualify an earlier classification.",
+      "card_ids": ["CARD-A-01", "CARD-B-01"]
+    }
+  ],
   "documents": [
     {
       "document_id": "DOC-A",
