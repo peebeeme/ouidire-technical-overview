@@ -11,4 +11,3 @@
 |---|---|---|---|
 | `FINDING-001` — A later assessment may qualify an earlier classification. | `CARD-A-01` | `DOC-A` — Fictional review note | DOC-A, p. 1, para. 2 |
 | `FINDING-001` — A later assessment may qualify an earlier classification. | `CARD-B-01` | `DOC-B` — Fictional follow-up note | DOC-B, p. 1, para. 1 |
-

@@ -185,7 +185,7 @@ def main() -> int:
     result = validate_record(data)
     report = render_report(result)
     if args.report:
-        args.report.write_text(report + "\n", encoding="utf-8")
+        args.report.write_text(report, encoding="utf-8")
     print(report)
     return 0 if result.valid else 1
 
