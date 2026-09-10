@@ -2,7 +2,7 @@
 
 **Traceable, human-supervised analysis for complex documentary records.**
 
-OuiDire helps reviewers turn long, heterogeneous records into a navigable body of evidence. It combines document extraction, structured cards, multiple analytical lenses, human annotation, and source-linked synthesis.
+OuiDire, a product of [Studiorium Inc.](https://studiorium.ai/), helps reviewers turn long, heterogeneous records into a navigable body of evidence. It combines document extraction, structured cards, multiple analytical lenses, human annotation, and source-linked synthesis.
 
 This repository is a public technical overview. It documents the system's boundaries and design principles without publishing production code, private prompts, client data, or proprietary scoring rules.
 
@@ -13,6 +13,7 @@ This repository is a public technical overview. It documents the system's bounda
 ## Explore OuiDire
 
 - **Product website:** [ouidire.app](https://ouidire.app/)
+- **Company and AI studio:** [studiorium.ai](https://studiorium.ai/)
 - **English workspace:** [beta.ouidire.app](https://beta.ouidire.app/)
 - **Espace de travail français:** [beta-fr.ouidire.app](https://beta-fr.ouidire.app/)
 

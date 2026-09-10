@@ -2,7 +2,7 @@
 
 **Analyse traçable et supervisée par l'humain pour les dossiers documentaires complexes.**
 
-OuiDire aide à transformer des dossiers longs et hétérogènes en un corpus navigable de preuves. Le système combine extraction documentaire, cartes structurées, plusieurs angles d'analyse, annotation humaine et synthèse reliée aux sources.
+OuiDire, un produit de [Studiorium Inc.](https://studiorium.ai/), aide à transformer des dossiers longs et hétérogènes en un corpus navigable de preuves. Le système combine extraction documentaire, cartes structurées, plusieurs angles d'analyse, annotation humaine et synthèse reliée aux sources.
 
 Ce dépôt est une vitrine technique publique. Il décrit les limites et principes du système sans publier le code de production, les prompts privés, les données de clients ni les règles de pondération propriétaires.
 
@@ -13,6 +13,7 @@ Ce dépôt est une vitrine technique publique. Il décrit les limites et princip
 ## Découvrir OuiDire
 
 - **Site du produit :** [ouidire.app](https://ouidire.app/)
+- **Entreprise et studio IA :** [studiorium.ai](https://studiorium.ai/)
 - **Espace de travail français :** [beta-fr.ouidire.app](https://beta-fr.ouidire.app/)
 - **English workspace:** [beta.ouidire.app](https://beta.ouidire.app/)
 
